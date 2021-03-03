@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 500px 500px;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -42,15 +43,58 @@
   }
 }
 
-.header{
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  height: 30px;
-  background-color: black;
-  color:white
+
+.navbar.navbar-dark{
+  justify-content: flex-start !important;
+  color:white;
+  box-shadow: 0 0 20px rgb(0 0 0 / 80%);
 }
 
-.header div{
+.navbar.navbar-dark div{
   padding-left: 10px;
+}
+
+.card-body:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+  0 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.positionButtom{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.buttomEditTask{
+  height: 30px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  width: 130px;
+  cursor: pointer;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttomEditTask:hover{
+  box-shadow: none;
+  background: #0e61ba;
+}
+
+
+.posTasks{
+  width: 80vw;
+}
+
+.posTaskForm{
+  width: 20vw;
+}
+
+.posFormTasks{
+  flex-wrap: nowrap;
 }

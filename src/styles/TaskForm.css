@@ -1,0 +1,46 @@
+.inputs {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  .listForms{
+      border-radius: 10px;
+  }
+
+  
+.positionButtom{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .buttomEditTask{
+    height: 30px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    width: 130px;
+    cursor: pointer;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttomEditTask:hover{
+    box-shadow: none;
+    background: #0e61ba;
+  }
