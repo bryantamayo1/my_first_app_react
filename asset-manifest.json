@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bryantamayo1/my_first_app_react/static/css/main.4fda97aa.chunk.css",
+    "main.js": "/bryantamayo1/my_first_app_react/static/js/main.ebc50c1b.chunk.js",
+    "main.js.map": "/bryantamayo1/my_first_app_react/static/js/main.ebc50c1b.chunk.js.map",
+    "runtime-main.js": "/bryantamayo1/my_first_app_react/static/js/runtime-main.98915ce1.js",
+    "runtime-main.js.map": "/bryantamayo1/my_first_app_react/static/js/runtime-main.98915ce1.js.map",
+    "static/js/2.1043a20b.chunk.js": "/bryantamayo1/my_first_app_react/static/js/2.1043a20b.chunk.js",
+    "static/js/2.1043a20b.chunk.js.map": "/bryantamayo1/my_first_app_react/static/js/2.1043a20b.chunk.js.map",
+    "index.html": "/bryantamayo1/my_first_app_react/index.html",
+    "static/css/main.4fda97aa.chunk.css.map": "/bryantamayo1/my_first_app_react/static/css/main.4fda97aa.chunk.css.map",
+    "static/js/2.1043a20b.chunk.js.LICENSE.txt": "/bryantamayo1/my_first_app_react/static/js/2.1043a20b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bryantamayo1/my_first_app_react/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98915ce1.js",
+    "static/js/2.1043a20b.chunk.js",
+    "static/css/main.4fda97aa.chunk.css",
+    "static/js/main.ebc50c1b.chunk.js"
+  ]
+}
