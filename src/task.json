@@ -4,85 +4,19 @@
             "title":"My first task",
             "responsible":"Bryan",
             "description":"It's a chalenge",
-            "priority":"high"
-        },
+            "priority":"High"
+        },  
         {
-            "title":"Testing app with React",
+            "title":"My second task",
             "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
+            "description":"It's a chalenge",
+            "priority":"High"
+        },  
         {
-            "title":"Testing app with React",
+            "title":"My third task",
             "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
-        },
-        {
-            "title":"Testing app with React",
-            "responsible":"Bryan",
-            "description":"Let's go",
-            "priority":"high"
+            "description":"It's a chalenge",
+            "priority":"High"
         }
     ]
 }

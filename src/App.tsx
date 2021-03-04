@@ -1,22 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {tasks} from "./task.json";
 import TaskForm from "./components/TaskForm";
 
 
 class App extends React.Component<any, any >{
+
   constructor(props: any){
     super(props);
     this.state = {
       tasks
     }
+    this.addTask = this.addTask.bind(this);
+  }
+
+  addTask(task:any){
+    this.setState({
+      tasks: [...this.state.tasks, task]
+    });
+    console.log(typeof this.state);
+  }
+
+  deleteTask(i:number){
+    this.setState({
+      tasks: this.state.tasks.filter((task:Object, index:number) =>{
+        return index !== i;
+      } )
+    })
   }
 
   render(){
-    const tasksHTML = this.state.tasks.map( (task:any, i: number) => {
+    const tasksHTML = this.state.tasks.map( (task:any,  i:number) => {
       return (
-        <div className="col-md-3">
+        <div className="col-md-3" key={i}>
             <div className="card  mb-3">
                 
                 <div className="card-body">
@@ -26,7 +42,7 @@ class App extends React.Component<any, any >{
                     <p className="badge badge-pill badge-danger">{task.priority}</p>
                     
                     <div className="positionButtom">
-                        <div className="buttomEditTask">Edit task</div>
+                        <div className="buttomEditTask" onClick={this.deleteTask.bind(this, i)}>Delete task</div>
                     </div>
                 </div>
             </div>
@@ -44,8 +60,9 @@ class App extends React.Component<any, any >{
 
         <div className="container allContainer">
             <div className="row posFormTasks"> 
+
               <div className="posTaskForm">
-                  <TaskForm/>
+                  <TaskForm updateTaks={this.addTask}/>
               </div>
 
               <div className="posTasks">

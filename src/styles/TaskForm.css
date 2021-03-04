@@ -6,19 +6,22 @@
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-
     background-color: white;
     border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
+  }
 
+  .inputs:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+    0 4px 20px 0 rgba(0, 0, 0, 0.1);
   }
 
   .listForms{
       border-radius: 10px;
   }
 
-  
 .positionButtom{
     display: flex;
     justify-content: center;
@@ -34,13 +37,20 @@
     border-radius: 6px;
     width: 130px;
     cursor: pointer;
-   
     display: flex;
     align-items: center;
     justify-content: center;
+    border:none;
   }
   
   .buttomEditTask:hover{
     box-shadow: none;
     background: #0e61ba;
+  }
+
+  @media(max-width:576px){
+    .inputs{
+        width: 73vw !important;
+    }
+
   }

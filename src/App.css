@@ -43,15 +43,26 @@
   }
 }
 
-
 .navbar.navbar-dark{
   justify-content: flex-start !important;
   color:white;
-  box-shadow: 0 0 20px rgb(0 0 0 / 80%);
+  box-shadow: 0 0 20px rgb(0 0 0 / 80%);                                                                                   
 }
 
 .navbar.navbar-dark div{
   padding-left: 10px;
+}
+
+@media(max-width:576px){
+  .posFormTasks{
+      flex-wrap: wrap !important;
+  }
+
+  .posTaskForm{
+    width: 100vw !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .card-body:hover{
@@ -86,13 +97,16 @@
   background: #0e61ba;
 }
 
-
 .posTasks{
   width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .posTaskForm{
   width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .posFormTasks{
